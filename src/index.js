@@ -101,3 +101,13 @@
 // const { name = "ゲスト", age = 0 } = myProfile;
 // console.log(name);
 // console.log(age);
+
+const name = "れん";
+const age = 23;
+
+const myProfile = {
+  name,
+  age
+};
+
+console.log(myProfile);
