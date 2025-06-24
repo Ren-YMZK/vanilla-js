@@ -163,11 +163,11 @@ const nameArr = [`田中`, `佐藤`, `れん`];
 
 // console.log(newNumArr);
 
-const newNameArr = nameArr.map((name) => {
-  if (name === "れん") {
-    return name;
-  } else {
-    return `${name}さん`;
-  }
-});
-console.log(newNameArr);
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "れん") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
