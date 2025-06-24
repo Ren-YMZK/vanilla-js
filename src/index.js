@@ -126,13 +126,13 @@
 // console.log(num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-arr6[0] = 100;
-console.log(arr4);
-console.log(arr6);
+// const arr6 = [...arr4];
+// arr6[0] = 100;
+// console.log(arr4);
+// console.log(arr6);
 
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
@@ -141,3 +141,33 @@ console.log(arr6);
 // arr8[0] = 100;
 // console.log(arr8);
 // console.log(arr4);
+
+const nameArr = [`田中`, `佐藤`, `れん`];
+
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+// nameArr.map((name) => console.log(name));
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+// const numArr = [1, 2, 3, 4, 5];
+
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+
+// console.log(newNumArr);
+
+const newNameArr = nameArr.map((name) => {
+  if (name === "れん") {
+    return name;
+  } else {
+    return `${name}さん`;
+  }
+});
+console.log(newNameArr);
