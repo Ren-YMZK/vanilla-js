@@ -182,8 +182,9 @@ const nameArr = [`田中`, `佐藤`, `れん`];
 //   typeof num === "number" ? num.toLocaleString() : "数値を入力してください。";
 // console.log(formattedNum);
 
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています。" : "許容範囲内です";
-};
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています。" : "許容範囲内です";
+// };
 
-console.log(checkSum(40, 50));
+// console.log(checkSum(40, 50));
+
